@@ -1,4 +1,25 @@
 import random
+import time
+
+sci = """
+\ /
+ A
+O O
+"""
+
+pap = """
+ ____
+|^^^ |
+|^^*^|
+|____|
+"""
+
+rok = """
+ _
+/ \
+\_/
+"""
+
 
 outcomes = ["rock", "paper", "scissor"]
 number = random.randint(0, 2)
